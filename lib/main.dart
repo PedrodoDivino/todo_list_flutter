@@ -17,15 +17,14 @@ textTheme:GoogleFonts.nunitoSansTextTheme(
       home: Scaffold(
         body: Container(
           child:Center(
-          child: Text(
-            'Olá,Mundo!',
-            style: TextStyle(
-              fontSize: 22.0,
-            ),
-            ),
+          child:Image(
+image: AssetImage(
+  'assets/image/logo.png'
+),
           ),
         ),
       ),
+    ),
     );
   }
 }
