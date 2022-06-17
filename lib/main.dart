@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/screens/homepage.dart';
  import 'package:google_fonts/google_fonts.dart';
 
 void main(){
@@ -14,17 +15,7 @@ textTheme:GoogleFonts.nunitoSansTextTheme(
   Theme.of(context).textTheme
 ),
      ),
-      home: Scaffold(
-        body: Container(
-          child:Center(
-          child:Image(
-image: AssetImage(
-  'assets/image/logo.png'
-),
-          ),
-        ),
-      ),
-    ),
+      home: Homepage(),
     );
   }
 }
